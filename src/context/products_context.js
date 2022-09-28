@@ -12,6 +12,7 @@ import {
   GET_SINGLE_PRODUCT_SUCCESS,
   GET_SINGLE_PRODUCT_ERROR,
 } from '../actions'
+import { LocalDining } from '@mui/icons-material'
 
 const initialState = {
   isSidebarOpen: false,
@@ -57,7 +58,7 @@ export const ProductsProvider = ({ children }) => {
       {
         ...state,
         closeSidebar,
-        openSidebar
+        openSidebar,
       }
     }>
       {children}

@@ -40,7 +40,7 @@ const products_reducer = (state, action) => {
         products_error: true
       }
   }
-  return state
+
   throw new Error(`No Matching "${action.type}" - action type`)
 }
 
