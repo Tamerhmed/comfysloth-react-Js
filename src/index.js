@@ -15,6 +15,8 @@ const root = ReactDOM.createRoot(container);
 
 root.render(
      <ProductsProvider>
-          <App />
+          <FilterProvider>
+               <App />
+          </FilterProvider>
      </ProductsProvider>
 );
